@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">CameraApp</string>
+  <string name="openCamera">Open Camera</string>
+  <string name="imageGallery">Open the Image Gallery</string>
 </resources>

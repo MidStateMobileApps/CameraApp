@@ -2,6 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent" >
+  <Button
+    android:id="@+id/myButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/openCamera"
+    />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300.0dp"
+    android:id="@+id/imageViewCurt"
+    android:adjustViewBounds="true"
+    />
+  <Button
+    android:id="@+id/otherButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/imageGallery"
+    />
 </LinearLayout>
